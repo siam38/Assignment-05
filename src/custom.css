@@ -1,0 +1,19 @@
+
+#info-bg {
+    background: url('../images/info-devider.png') no-repeat;
+    background-color: #FFFFFF;
+    background-position: 88% 0;
+}
+
+
+@media only screen and (max-width:576px) {
+    #sit-count button {
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    #info-bg {
+        background: #FFFFFF;
+    }
+}

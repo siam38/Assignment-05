@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S-Ticket: Effortless bus bookings, done.</title>
+    <title>SA-Ticket: Effortless bus bookings, done.</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="/images/bus-icon.png" type="image/x-icon">
@@ -42,7 +42,7 @@
 
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl lg:text-[36px] font-bold">SA Transport</a>
+                    <a class="btn btn-ghost text-xl lg:text-[36px] font-bold">SA Ticket</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 text-xl">
@@ -69,7 +69,7 @@
                     <br>
                     <span class="text-[#1DD100]">SA Transport</span>
                 </h1>
-                <p class="w-11/12 lg:w-[690px] normal-font">
+                <p class="w-11/12 lg:w-[690px]">
                     “Due to Special Reserve service, Reserve bus ticket fare might be higher than regular, Customers are
                     requested to check
                     fare before purchase.”
@@ -124,7 +124,7 @@
                 <div class="flex w-full lg:w-1/2 justify-between items-center rounded-[24px] bg-[#FFBF0F] bg-no-repeat bg-center py-[52px] px-[30px] lg:px-[80px] mb-5"
                     style="background-image: url('./images/cupon-devider.png');">
                     <div>
-                        <h1 class="normal-font text-[24px] lg:text-[40px] font-bold">15% OFF</h1>
+                        <h1 class="text-[24px] lg:text-[40px] font-bold">15% OFF</h1>
                         <p>on your next purchase</p>
                         <small class="text-[rgba(3,7,18,0.50)] text-[18px]">use by Jun 2024</small>
                     </div>
@@ -137,12 +137,12 @@
                 <div class="flex w-full lg:w-1/2 justify-between items-center rounded-[24px] bg-[#F78C9C] bg-no-repeat bg-center py-[52px] px-[30px] lg:px-[80px] mb-5"
                     style="background-image: url('./images/cupon-devider.png');">
                     <div>
-                        <h1 class="normal-font text-[24px] lg:text-[40px] font-bold">20% OFF</h1>
+                        <h1 class="text-[24px] lg:text-[40px] font-bold">20% OFF</h1>
                         <p>on your next purchase</p>
                         <small class="text-[rgba(3,7,18,0.50)] text-[18px]">use by Jun 2024</small>
                     </div>
                     <div class="text-center">
-                        <h2 id="coupon-2" class="title-font text-[24px] lg:text-4xl font-bold">Couple 20</h2>
+                        <h2 id="coupon-2" class="text-[24px] lg:text-4xl font-bold">Couple 20</h2>
                         <p>Coupon Code</p>
                     </div>
                 </div>
@@ -153,7 +153,61 @@
             </div>
         </section>
 
+<!---------Bus Info Section---------->
+        <section id="travel-section" class="mt-8 lg:mt-36  border-t-4 border-[#1DD100] rounded-[88px] pt-[50px] lg:pt-[130px]">
+            <div class="text-center space-y-2">
+                <h1 class="text-[40px] font-bold">SA Paribahan</h1>
+                <p>Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+            </div>
 
+            <div id="info-bg" class="flex flex-col lg:flex-row justify-center items-center px-0 lg:px-16 py-7 mt-16  gap-6 lg:gap-20  rounded-3xl ">
+                <div class="w-full lg:flex-1 ">
+                    <div class="flex flex-col lg:flex-row items-center justify-between mb-8 gap-2">
+                        <div class="flex flex-col lg:flex-row justify-center items-center gap-3 text-center">
+                            <div>
+                                <img src="./images/bus-logo.png" alt="">
+                            </div>
+                            <div>
+                                <h2 class="text-3xl font-bold">Greenline Paribahan</h2>
+                                <p class="text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                            </div>
+                        </div>
+                        <div class="flex text-[#1DD100] items-center gap-2 bg-[#1DD10026] w-[180px] p-3 rounded-2xl">
+                            <img src="./images/seat-green.png" alt="">
+                            <span id="available-seat">40</span>
+                            <p>Seats left</p>
+                        </div>
+                    </div>
+                    <div class="bg-[#F7F8F8] p-10 rounded-2xl space-y-3">
+                        <div class="flex justify-between">
+                            <p class="text-xl lg:text-2xl font-[600] text-[rgba(3,7,18,0.60)]">Route</p>
+                            <p class="text-xl lg:text-2xl font-[600] text-[rgba(3,7,18,0.60)]">Dhaka - Sylhet</p>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between">
+                            <p class="text-xl lg:text-2xl font-[600] text-[rgba(3,7,18,0.60)]">Departure Time</p>
+                            <p class="text-xl lg:text-2xl font-[600] text-[rgba(3,7,18,0.60)]">9:00 PM</p>
+                        </div>
+                        <hr>
+                        <div class="flex flex-col lg:flex-row gap-4 justify-between pt-7">
+                            <button class="btn text-[rgba(3,7,18,0.80)] text-xl bg-[#0307120D]">Boarding
+                                Point - Laxmipur</button>
+                            <button class="btn text-[rgba(3,7,18,0.80)] text-xl bg-[#0307120D]">Dropping
+                                Point - Bogura</button>
+                            <button class="btn text-[rgba(3,7,18,0.80)] text-xl bg-[#0307120D]">Est. Time -
+                                11 Hour</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="text-center flex flex-col justify-center items-center gap-2">
+                    <img src="./images/fare.png" alt="">
+                    <h2 class="text-2xl font-bold"><span id="seat-price">550</span> Taka</h2>
+                    <p class="text-[#03071299] text-2xl font-semibold">Per Seat</p>
+                </div>
+            </div>
+
+            
 
     </main>
 </body>
