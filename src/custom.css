@@ -20,6 +20,11 @@
     justify-content: space-between;
 }
 
+.dividerDesign{
+    border-top: 1px dashed #03071233;
+    border-bottom: 0px;
+}
+
 @media only screen and (max-width:576px) {
     #sit-count button {
         width: 50px;
