@@ -6,6 +6,20 @@
 }
 
 
+#sit-count button {
+    width: 110px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#select-ticket li {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
 @media only screen and (max-width:576px) {
     #sit-count button {
         width: 50px;

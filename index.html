@@ -53,7 +53,7 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="btn text-[#1DD100] text-xl font-semibold bg-[#1DD1001A] border-[#1DD10066]">Bus <img
+                    <a href="#travel-section" class="btn text-[#1DD100] text-xl font-semibold bg-[#1DD1001A] border-[#1DD10066]">Bus <img
                             src="./images/bus-icon.png" alt=""></a>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                     requested to check
                     fare before purchase.”
                 </p>
-                <a class="btn bg-[#1DD100] text-black font-[700] border-none outline-none title-font">Buy
+                <a href="#ticket-section" class="btn bg-[#1DD100] text-black font-[700] border-none outline-none title-font">Buy
                     Tickets</a>
             </div>
 
@@ -206,9 +206,189 @@
                     <p class="text-[#03071299] text-2xl font-semibold">Per Seat</p>
                 </div>
             </div>
+           
 
+              <!-- ----------Seat selection hare------ -->
+
+              <div id="ticket-section" class="bg-[#FFFFFF] mt-5 rounded-3xl lg:flex  p-8 lg:bg-[url('./images/line.png')] bg-no-repeat bg-center">
+                <div class="w-full lg:w-1/2 lg:px-8">
+                    <h2 class="title-font text-2xl font-bold mb-3">Select Your Seat</h2>
+                    <hr>
+                    <div class="flex justify-between my-3">
+                        <p class="flex gap-2 items-center text-xl text-[#03071280] font-semibold"><img
+                                src="./images/seat-gray.png" alt="">Available</p>
+                        <p class="flex gap-2 items-center text-xl text-[#1DD100] font-semibold"><img
+                                src="./images/seat-green.png" alt="">Selected</p>
+                    </div>
+                    <hr>
+                    <div class="flex justify-end mt-3">
+                        <div><img src="./images/wheel.png" alt=""></div>
+                    </div>
+
+                    <div id="sit-count" class="mt-10">
+                        <div class="flex justify-around mb-6 normal-font">
+                            <button class="text-2xl font-bold normal-font text-[rgba(3,7,18,0.50)]">A</button>
+                            <button id="a1" class="btn sit-button">A1</button>
+                            <button id="a2" class="btn sit-button">A2</button>
+                            <button id="a3" class="btn sit-button">A3</button>
+                            <button id="a4" class="btn sit-button">A4</button>
+                        </div>
+                        <div class="flex justify-around mb-6 normal-font">
+                            <button class="text-2xl font-bold normal-font text-[rgba(3,7,18,0.50)]">B</button>
+                            <button id="b1" class="btn sit-button">B1</button>
+                            <button id="b2" class="btn sit-button">B2</button>
+                            <button id="b3" class="btn sit-button">B3</button>
+                            <button id="b4" class="btn sit-button">B4</button>
+                        </div>
+                        <div class="flex justify-around mb-6 normal-font">
+                            <button class="text-2xl font-bold normal-font text-[rgba(3,7,18,0.50)]">C</button>
+                            <button id="c1" class="btn sit-button">C1</button>
+                            <button id="c2" class="btn sit-button">C2</button>
+                            <button id="c3" class="btn sit-button">C3</button>
+                            <button id="c4" class="btn sit-button">C4</button>
+                        </div>
+                        <div class="flex justify-around mb-6 normal-font">
+                            <button class="text-2xl font-bold normal-font text-[rgba(3,7,18,0.50)]">D</button>
+                            <button id="d1" class="btn sit-button">D1</button>
+                            <button id="d2" class="btn sit-button">D2</button>
+                            <button id="d3" class="btn sit-button">D3</button>
+                            <button id="d4" class="btn sit-button">D4</button>
+                        </div>
+                        <div class="flex justify-around mb-6 normal-font">
+                            <button class="text-2xl font-bold normal-font text-[rgba(3,7,18,0.50)]">E</button>
+                            <button id="e1" class="btn sit-button">E1</button>
+                            <button id="e2" class="btn sit-button">E2</button>
+                            <button id="e3" class="btn sit-button">E3</button>
+                            <button id="e4" class="btn sit-button">E4</button>
+                        </div>
+                        <div class="flex justify-around mb-6 normal-font">
+                            <button class="text-2xl font-bold normal-font text-[rgba(3,7,18,0.50)]">F</button>
+                            <button id="f1" class="btn sit-button">F1</button>
+                            <button id="f2" class="btn sit-button">F2</button>
+                            <button id="f3" class="btn sit-button">F3</button>
+                            <button id="f4" class="btn sit-button">F4</button>
+                        </div>
+                        <div class="flex justify-around mb-6 normal-font">
+                            <button class="text-2xl font-bold normal-font text-[rgba(3,7,18,0.50)]">G</button>
+                            <button id="g1" class="btn sit-button">G1</button>
+                            <button id="g2" class="btn sit-button">G2</button>
+                            <button id="g3" class="btn sit-button">G3</button>
+                            <button id="g4" class="btn sit-button">G4</button>
+                        </div>
+                        <div class="flex justify-around mb-6 normal-font">
+                            <button class="text-2xl font-bold normal-font text-[rgba(3,7,18,0.50)]">H</button>
+                            <button id="h1" class="btn sit-button">H1</button>
+                            <button id="h2" class="btn sit-button">H2</button>
+                            <button id="h3" class="btn sit-button">H3</button>
+                            <button id="h4" class="btn sit-button">H4</button>
+                        </div>
+                        <div class="flex justify-around mb-6 normal-font">
+                            <button class="text-2xl font-bold normal-font text-[rgba(3,7,18,0.50)]">I</button>
+                            <button id="i1" class="btn sit-button">I1</button>
+                            <button id="i2" class="btn sit-button">I2</button>
+                            <button id="i3" class="btn sit-button">I3</button>
+                            <button id="i4" class="btn sit-button">I4</button>
+                        </div>
+                        <div class="flex justify-around mb-6 normal-font">
+                            <button class="text-2xl font-bold normal-font text-[rgba(3,7,18,0.50)]">J</button>
+                            <button id="j1" class="btn sit-button">J1</button>
+                            <button id="j2" class="btn sit-button">J2</button>
+                            <button id="j3" class="btn sit-button">J3</button>
+                            <button id="j4" class="btn sit-button">J4</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="w-full lg:w-1/2 lg:px-8 mt-8">
+                    <h2 class="title-font text-2xl font-bold mb-3">Select Your Seat</h2>
+                    <hr>
+                    <div class="bg-[#F7F8F8] p-8 rounded-2xl mt-6">
+                        <div class="flex justify-between text-2xl font-bold mb-2">
+                            <p>Seat <sup id="selected-seat" class="bg-[#1DD100] px-3 rounded-3xl">0</sup></p>
+                            <p>Class</p>
+                            <p>Price</p>
+                        </div>
+                        <hr>
+                        <ul id="select-ticket">
+                        </ul>
+                        <hr>
+                        <div class="flex justify-between text-2xl font-bold normal-font mt-2">
+                            <p>Total Price</p>
+                            <p id="total-price">0</p>
+                        </div>
+                        <div id="discount" class="text-red-700 hidden flex justify-between text-xl font-bold normal-font mt-2">
+                            <p>Discount Price</p>
+                            <p id="discount-price">0</p>
+                        </div>
+                        <div id="input-filed" class="flex  justify-center my-4">
+                            <div class="lg:bg-white rounded-2xl lg:w-[360px] flex flex-col lg:flex-row justify-between normal-font gap-3">
+                                <input id="couponInput" class="border-gray-900 border-2 lg:border-none outline-none px-4 text-xl rounded-2xl h-[60px] lg:h-auto" type="text"
+                                    placeholder="Have any coupon?">
+                                <button onclick="couponApply()" id="apply-btn" disabled class="btn bg-[#1DD100] text-white text-xl">Apply</button>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between text-2xl font-bold normal-font">
+                            <p>Grand Total</p>
+                            <p id="grand-total">0</p>
+                        </div>
+                    </div>
+
+                    <form class="normal-font space-y-4 mt-6">
+                        <div class="flex flex-col gap-2">
+                            <label for="" class="text-xl normal-font font-semibold">Passenger Name<sup>*</sup></label>
+                            <input class="border-2 border-[#0307121A] p-4 rounded-2xl" type="text"
+                                placeholder="Enter your name">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <label for="" class="text-xl normal-font font-semibold">Phone Number<sup>*</sup></label>
+                            <input id="submitInfo" class="border-2 border-[#0307121A] p-4 rounded-2xl" type="number"
+                                placeholder="Enter your phone number">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <label for="" class="text-xl normal-font font-semibold">E-mail<sup>*</sup></label>
+                            <input class="border-2 border-[#0307121A] p-4 rounded-2xl" type="email"
+                                placeholder="Enter your email id">
+                        </div>
+                    </form>
+                    <div class="mt-10 ">
+                        <!-- Open the modal using ID.showModal() method -->
+                        <button id="modalbutton" disabled class="btn w-full bg-[#1DD100] text-2xl text-white"
+                            onclick="my_modal_5.showModal()">Next</button>
+                        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                            <div class="modal-box">
+                                <div class="flex items-center justify-center mb-8">
+                                    <img src="./images/success.png" alt="">
+                                </div>
+                                <h1 class="font-bold text-2xl text-[#27AE60] text-center">SUCCESS</h1>
+                                <h3 class="font-bold text-lg">Thank you for Booking Our Bus Seats.
+                                    We are working hard to find the best service and deals for you</h3>
+                                <p class="py-4">Shortly you will find a confirmation in your email.</p>
+                                <div class="modal-action">
+                                    <form class="w-full" method="dialog">
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button onclick="reload()"
+                                            class="btn bg-[#27AE60] w-full text-xl text-white font-bold">Continue</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </dialog>
+                    </div>
+                    <div class="flex flex-col lg:flex-row justify-between lg:px-32 mt-4 text-center">
+                        <a class="underline" href="">Terms and Conditions</a>
+                        <a class="underline" href="">Cancellation Policy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
             
 
     </main>
+
+    <script src="./src/func.js"></script>
+
 </body>
 </html>
